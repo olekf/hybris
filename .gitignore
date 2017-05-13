@@ -1,0 +1,10 @@
+/suite
+/velocity.log
+/extensions/*/platformhome.properties
+gensrc
+/idea-module-files
+.idea
+.DS_Store
+lib/
+*testclasses.xml
+classes/
