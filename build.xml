@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project name="hybris" default="all" basedir=".">
+	<property file="build.properties" />
+	
+	<target name="clean">
+		<ant dir="${hybris.platform.home}" target="clean"/>
+
+		<copy todir="${hybris.config.home}" overwrite="true">
+			<fileset dir="${project.config.home}" includes="**"/>
+		</copy>
+	</target>
+
+	<target name="all">
+		<ant dir="${hybris.platform.home}" target="all"/>
+	</target>
+
+	<target name="initialize">
+		<ant dir="${hybris.platform.home}" target="initialize"/>
+	</target>
+
+	<target name="updatesystem">
+		<ant dir="${hybris.platform.home}" target="updatesystem"/>
+	</target>
+</project>

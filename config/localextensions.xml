@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hybrisconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="resources/schemas/extensions.xsd">
+    <extensions>
+        <path dir="${HYBRIS_BIN_DIR}"/>
+        <path dir="${HYBRIS_BIN_DIR}/../../../extensions" autoload="false"/>
+
+        <extension name="yacceleratorstorefront"/>
+        <extension name="yacceleratorinitialdata"/>
+        <extension name="yacceleratorfulfilmentprocess"/>
+        <extension name="yacceleratorcore"/>
+        <extension name="yacceleratorinitialdata"/>
+        <extension name="yacceleratorfacades"/>
+        <extension name="yacceleratorstorefront"/>
+        <extension name="yacceleratorcockpits"/>
+        <extension name="yacceleratortest"/>
+
+        <extension name="electronicsstore"/>
+        <extension name="apparelstore"/>
+
+        <extension name="hmc"/>
+        <extension name="platformbackoffice"/>
+        <extension name="voucherbackoffice"/>
+        <extension name="promotionsbackoffice"/>
+
+        <extension name="acceleratorfacades"/>
+        <extension name="acceleratorservices"/>
+        <extension name="acceleratorcms"/>
+    </extensions>
+</hybrisconfig>
