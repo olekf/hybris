@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
+
+    <extension abstractclassprefix="Generated" classprefix="CucumberIntegration"
+               managername="CucumberIntegrationManager" managersuperclass="de.hybris.platform.jalo.extension.Extension"
+               name="cucumberintegration" usemaven="true">
+        <coremodule generated="true" manager="com.cucumberintegration.jalo.CucumberIntegrationManager"
+                    packageroot="com.cucumberintegration"/>
+
+        <webmodule jspcompile="false" webroot="/cucumber"/>
+    </extension>
+</extensioninfo>

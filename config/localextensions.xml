@@ -5,6 +5,8 @@
         <path dir="${HYBRIS_BIN_DIR}"/>
         <path dir="${HYBRIS_BIN_DIR}/../../../extensions" autoload="false"/>
 
+        <extension name="cucumberintegration"/>
+
         <extension name="yacceleratorstorefront"/>
         <extension name="yacceleratorinitialdata"/>
         <extension name="yacceleratorfulfilmentprocess"/>
