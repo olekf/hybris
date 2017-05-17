@@ -5,6 +5,7 @@ gensrc
 /idea-module-files
 .idea
 .DS_Store
-lib/
+*.jar
+.lastupdate
 *testclasses.xml
 classes/

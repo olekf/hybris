@@ -8,6 +8,8 @@
 		<copy todir="${hybris.config.home}" overwrite="true">
 			<fileset dir="${project.config.home}" includes="**"/>
 		</copy>
+
+		<ant dir="${hybris.platform.home}" target="customize"/>
 	</target>
 
 	<target name="all">
