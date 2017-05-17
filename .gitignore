@@ -9,3 +9,6 @@ gensrc
 .lastupdate
 *testclasses.xml
 classes/
+eclipsebin/
+.externalToolBuilders/
+.settings/
